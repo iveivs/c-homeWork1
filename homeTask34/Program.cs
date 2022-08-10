@@ -11,12 +11,14 @@ int[] FillingArray()
     // Буферная переменная
     int i = 0;
     System.Random numberSintezator = new System.Random();
+    // Создаём цикл заполнения массива
     while (i < 10)
     {
         outArray[i] = numberSintezator.Next(100, 1000);
         // Увеличиваем инкримент
         i++;
     } 
+    // Возвращаем значение
     return outArray;
 }
 
